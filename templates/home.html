@@ -2,8 +2,14 @@
 
 {% block content %}
 <div class="container">
-    <p>
-        Test
+    <h1>
+       Welcome!
+    </h1>
+    <image class="imageContainer" align="centre" src="{{url_for('static', filename='images/hello there.gif')}}"></image>
+
+    <p class="text_box tb_color" align="centre" color="white">
+        {{ message }}
     </p>
+
 </div>
 {% endblock %}

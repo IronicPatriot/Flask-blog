@@ -3,9 +3,11 @@ import json
 
 app = Flask(__name__)
 
+home_message = ("Did you know sharks only attack you when your wet?")
+
 @app.route("/")
 def home():
-    return render_template('home.html')
+    return render_template('home.html', message=home_message)
 
 @app.route("/contact")
 def contact():
