@@ -1,0 +1,61 @@
+body {background-color: #9494b8;}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.imageContainer {
+    width:50%;
+    background-size:59;
+}
+
+.btn {
+    color: black;
+}
+.btn-1 {background-color: white;}
+
+.text_box {
+    position: relative;
+    margin-top: 5%;
+    width: 35%;
+    border: 5px red solid;
+    background-color: black;
+}
+.tb_color{
+    color: white;
+}
+
+.imageProfile {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  object-fit:cover;
+  border-radius :50%
+}
+
+.sml {
+  width: 75px;
+  height: 75px;
+}
+
+.blogPost {
+    background-color: #c1c1de;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.currentPge {
+    background-color: #6969f5;
+}
+
+.raisedBox {
+    padding: 10px;
+    border: 1px solid #3f3f45;
+    box-shadow:  -1px 1px #3f3f45,
+         -2px 2px #3f3f45,
+         -3px 3px #3f3f45,
+         -4px 4px #3f3f45,
+         -5px 5px #3f3f45;
+}

@@ -1,0 +1,29 @@
+body {background-color: #9494b8;}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.imageContainer {
+    width:50%;
+    background-size:59;
+}
+
+.btn {
+    width: 10%;
+    color: black;
+}
+.btn-1 {background-color: white;}
+
+.text_box {
+    position: relative;
+    margin-top: 5%;
+    width: 35%;
+    border: 5px red solid;
+    background-color: black;
+}
+.tb_color{
+    color: white;
+}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <h1> Test </h1>
+
+    <body>
+        <button id="menuBtn" class="btn btn-1">MENU</button>
+
+        <p id="print"></p>
+
+        <form autocomplete="off">
+            <label>Number 1:</label>
+            <input type="text" ID="num1">
+        </form>
+        <form autocomplete="off">
+            <label>Number 2:</label>
+            <input type="text" ID="num2">
+        </form>
+
+
+        <p id="numberTotal"></p>
+    </body>
+</div>
+
+<script type="text/javascript" src="{{url_for('static', filename='javascript/test-script.js')}}"> </script>
+
+{% endblock %}
