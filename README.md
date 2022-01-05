@@ -1,4 +1,4 @@
-Flask Blog aka JustSomeGuysBlog
+## Flask Blog aka JustSomeGuysBlog
 
 Live version of site can be found at - http://www.justsomeguysblog.com/
 
