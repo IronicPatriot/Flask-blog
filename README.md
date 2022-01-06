@@ -2,6 +2,8 @@
 
 Live version of site can be found at - http://www.justsomeguysblog.com/
 
+I don't moderate the site so please don't post anything naughty. 
+
 **Features:**
 - Account creation and login
 - Password reset email
